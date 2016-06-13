@@ -1,0 +1,320 @@
+/*
+Theme Name: ProLine Range Hoods Theme
+Theme URI: http://www.prolinerangehoods.com/
+Description: Theme for ProLine Range Hoods
+Version: 1.0
+Author: Levi Senft
+Author URI: http://levisenft.com/
+
+*/
+body {
+background-image: url(img/body_bg.gif);
+background-repeat: repeat-x;
+background-color:#EDEDED;
+color:#333333;
+}
+#header {
+height: 127px;
+color: white;
+background-image: url(img/content_top.gif);
+background-position: left bottom;
+background-repeat: no-repeat;
+}
+a:hover {
+color:#0059A7;
+}
+#header a {
+	color: white;
+}
+#header ul {
+	display: block;
+	list-style: none;
+	padding: 15px 0 0 0;
+}
+#header ul li {
+	display: block;
+	float: right;
+}
+
+#header ul li a {
+	text-decoration: none;
+}
+#header ul li a:hover {
+	text-decoration: underline;
+}
+#header ul li.cls {
+	float: none;
+	clear: both;
+	height: 0px;
+}
+
+#header form div {
+	text-align: right;
+}
+
+#header form div label.screen-reader-text {
+	display: none;
+}
+
+.content_wrap {
+	background-image: url(img/content_mid.gif);
+}
+
+#footer {
+	background-image: url(img/content_bot.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	height: 160px;
+	padding: 27px;
+	color:#515151;font-size:11px;
+}
+
+
+#footer p.copy {
+	text-align: right;
+	margin-top:27px;
+}
+
+#footer .imgleft {
+	float: left;
+} 
+#footer .imgright {
+	float: right;
+} 
+
+#footer a{color:#515151;font-weight:400;text-decoration:underline;}
+#sidebar ul  {
+	display: block;
+	list-style: none;
+	margin: 0px;
+}
+#sidebar ul li {
+	margin: 0px;
+	padding:  0px ;
+	background-image: url(img/sidebar_mid.jpg);
+}
+
+#sidebar ul li h2.widgettitle {
+	background-image: url(img/sidebar_top.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;	
+	padding: 17px 0 13px 45px;
+	color: white;
+	margin: 0px;
+	font-size:14px;
+	font-weight: normal;
+}
+
+#sidebar ul li ul, #sidebar ul li div {
+	background-image: url(img/sidebar_bot.jpg);	
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+#sidebar ul li div ul li, #sidebar ul li  ul li {
+	background-image: none;
+}
+#sidebar ul li div ul ul {
+background-image: none;
+}
+#sidebar ul li div ul {
+	padding: 3px 10px 10px 10px;
+}
+
+#sidebar ul li ul {
+	padding: 3px 10px 10px 10px;
+}
+#sidebar ul li ul ul {
+	background-image: none;
+}
+#sidebar ul li {
+	margin-bottom: 9px;
+}
+
+#sidebar ul ul  li {
+	margin-bottom: 0px;
+}
+
+#sidebar .textwidget ul li a, #sidebar .widget_pages ul li a, #sidebar .widget_categories ul li a {
+background-image:none;
+color:#333333;
+display:block;
+font-size:11px;
+font-weight:700;
+padding:9px 0 1px;
+text-decoration:none;
+}
+#sidebar .textwidget ul li ul li a, #sidebar .widget_pages ul li ul li a, #sidebar .widget_categories ul li ul li a  {
+display:block;
+font-size:11px;
+padding:0;
+color: #656565;
+font-weight: normal;
+}
+
+#sidebar .textwidget ul li a:hover,
+#sidebar .textwidget ul li ul li a:hover,
+#sidebar .widget_pages ul li a:hover,
+#sidebar .widget_pages ul li ul li a:hover,
+#sidebar .widget_categories ul li a:hover,
+#sidebar .widget_categories ul li ul li a:hover    {
+color:#0059A7;
+}
+
+.widget_tag_cloud div {
+	padding: 0px 10px 10px 10px;
+}
+
+#sidebar #socialLinksSidebarContainer {
+	padding: 0px 10px 10px 10px;
+}
+
+#content h2 {
+	margin-bottom: 9px;
+}
+#content h2 a {
+	color: #333333;
+	text-decoration: none;
+}
+#content h2 a:hover {
+color:#0059A7;
+}
+#content .post {
+	margin-bottom: 20px;
+}
+
+textarea {
+	width: 690px;
+}
+
+.rapidssl {
+float:left;
+line-height:21px;
+margin-left:164px;
+text-align:center;
+width:120px;
+}
+
+body.search-results h3 {
+	font-size: 16px;
+	margin-bottom: 0px;
+	margin-top: 11px;
+}
+
+body.search-results p {
+	margin-bottom: 0px;
+}
+body.search-results p.postmetadata {
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+body.search-results p.postmetadata a.url {
+color: #008000;
+}
+body.search-results p.postmetadata a {
+color: #7777CC;
+}
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left;
+	}
+/* End Images */
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+/* End captions */
+.cls {
+	float: none;
+	clear: both;
+	height: 0px;
+}
+
+textarea#wpcf_msg {
+	width: 460px;
+}
+
+h2#comments {
+	font-size: 19px;
+}
+
+
+#nofka {
+margin-top:-37px;
+}
+
+p.copy a {
+color:#515151;
+}
+
+p.copy a:hover {
+	text-decoration: underline;
+}
+p.copy {
+	text-align: center;
+	width: 805px;
+	margin: 5px auto 7px auto;
+	color:#515151;font-size:11px;
+}
